@@ -3,20 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Java Script</title>
+    <title>Document</title>
 </head>
 <body>
-    <script src="script.js"></script>
-    <input type ="button"onclick="sayHello()"value="Say Hello"/>
-    <p>Click the button to create a variable, and display the result.</p>
-    <button onclick="myfunction()">Try it</button>
-
-    <script>
-        function myfunction()
-        {
-        
-        }
+<!--     
+    <p id="demo1">Lorem ipsum dolor sit amet consectetur adipisicing elit. At quas quaerat soluta minus aperiam. Neque corrupti veniam iure, quisquam vel laboriosam, id suscipit consequatur a vero autem officia perspiciatis repellendus?</p>
+    <p id="demo2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, repellendus in. Iusto architecto, animi inventore eaque labore dolor quos est quasi voluptatem? Nemo nisi minus voluptate quos magnam beatae libero!</p> -->
+    <!-- <script>
+        function myfunction(){
+    var carName="volvo";
+    document.getElementByld("demo1").innerHTML=typeof carName+""+carName;
+}
+myfunction();
+document.getElementByld("demo2").innerHTML=typeof carName;
     </script>
+    <script>
+        var locales={
+            europe:function(){
+                var myfriend="monique";
+                var france=function(){
+                    var paris=function(){
+                        console.log(myfriend);
+                    };
+                    paris();
+                };
+                france();
+            }
+
+        };
+        locales.europe();
+    </script> -->
+    <!-- <script>
+        function show(){
+            var a="a is local outer variable";
+            document.write(a+"<br>");
+            function disk(){
+                var b="b is local inner variable";
+                document.write(b+"<br>");
+            }
+            disk();
+        }
+        show(); -->
+        <!-- <html>
+            <body onload=check();>
+                <script type ="text/javascript">
+                    var myVar="global";
+                    function check(){
+                        var myVar="local";
+                        document.write(myVar);
+                    }
+                </script>
+        </html> -->
+        <!-- <script>
+            var name='john ';
+            function first(){
+                var a='hello! ';
+                second();
+                var x=a+name;
+                document.write(x);
     
+            }
+            function second(){
+                var b='hi! ';
+                third();
+                var z=b+name;
+                document.write(z);
+            }
+            function third(){
+                var c='hey! ';
+                var z=c+name;
+                document.write(z);
+            }
+            first();
+            
+        </script> -->
+        <html>
+            <body>
+                <script type="text/javascript">
+                    var age =20
+                    if(age>18){
+                        document.write("<b>You can vote.");
+
+                    }
+                </script>
+                <p>Set the variable to different value and then try....</p>
+            </body>
+        </html>
 </body>
 </html>
