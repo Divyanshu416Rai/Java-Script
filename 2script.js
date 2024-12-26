@@ -49,38 +49,68 @@
 // }
 
 
-var a= 10;
-var b= 20;
-var linebreak="<br/>";
+// var a= 10;
+// var b= 20;
+// var linebreak="<br/>";
 
-document.write("(a==b)=>");
-result=(a==b);
-document.write(result);
-document.write(linebreak);
+// document.write("(a==b)=>");
+// result=(a==b);
+// document.write(result);
+// document.write(linebreak);
 
-document.write("(a<b)=>");
-result=(a<b);
-document.write(result);
-document.write(linebreak);
+// document.write("(a<b)=>");
+// result=(a<b);
+// document.write(result);
+// document.write(linebreak);
 
-document.write("(a>b)=>");
-result=(a>b);
-document.write(result);
-document.write(linebreak);
+// document.write("(a>b)=>");
+// result=(a>b);
+// document.write(result);
+// document.write(linebreak);
 
-document.write("(a!=b)=>");
-result=(a!=b);
-document.write(result);
-document.write(linebreak);
+// document.write("(a!=b)=>");
+// result=(a!=b);
+// document.write(result);
+// document.write(linebreak);
 
-document.write("(a>=b)=>");
-result=(a>=b);
-document.write(result);
-document.write(linebreak);
+// document.write("(a>=b)=>");
+// result=(a>=b);
+// document.write(result);
+// document.write(linebreak);
 
-document.write("(a<=b)=>");
-result=(a<=b);
-document.write(result);
-document.write(linebreak);
+// document.write("(a<=b)=>");
+// result=(a<=b);
+// document.write(result);
+// document.write(linebreak);
+
+// function information(firstname,lastname,language){
+//     if(arguments.length===3){
+//         console.log(firstname)
+//         console.log(lastname)
+//         console.log(language)
+//     }
+// }
+// information();
+// information('divyanshu','rai','shyam');
+
+
+// function over(){
+//     document.getElementById('mytext').style.color="#005";
+// }
+// function mout(){
+//     document.getElementById('mytext').style.color="magneta";
+
+// }
+
+// prompt Dialog Box
+
+// var retVal=prompt("Enter your name:","divyanshu")
+// alert("divyanshu:"+retVal);
+
+// var name=prompt("Enter your name","Name");
+// document.write("<h2>Hello"+name"</h2>");
+
+// var question="What is 10+10";
+// var answer=20;
 
 
