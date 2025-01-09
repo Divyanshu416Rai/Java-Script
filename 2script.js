@@ -110,7 +110,73 @@
 // var name=prompt("Enter your name","Name");
 // document.write("<h2>Hello"+name"</h2>");
 
-// var question="What is 10+10";
-// var answer=20;
+// var question="What is 10 +10";
 
+// var answer = 20 ;
+
+// var correct='<img src="right.jpg" height = " 150 " width = "250">';
+
+// var incorrect='<img src="wrong.png" height ="150" prime prime width ="250 ">';
+
+// var response=prompt(question,"0");
+
+// for(count=0;count<3;count++)
+
+// {
+
+// if (response!=answer)
+
+// {
+
+// confirm("Wrong, Press OK for another chance");
+
+// response-prompt(question, "0");
+
+// if(count==1)
+
+// {
+
+// alert("Better luck next time");
+
+// }
+
+// }
+
+// else
+
+// {
+
+// alert("Great!! you are right");
+
+// count = 3 ;
+
+// }
+
+// }
+
+// var output=(response-answer)?correct:incorrect;
+
+// document.write("</BR>");
+
+// document.write(output);
+
+
+
+
+
+// function redirect(){
+//     window.location="https://www.facebook.com";
+// }
+// document.write("You will be redirected to main page in 10 sec ");
+//     setTimeout('redirect()',10000);
+
+
+function validateForm(){
+    var x=document.forms["myForm"]["fname"].value;
+ }
+ if(x==null||x=="")
+ {
+    alert("first name must be filled out");
+    return false;
+ }
 

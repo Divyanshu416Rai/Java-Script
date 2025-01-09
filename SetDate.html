@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Date</title>
+</head>
+<body>
+    <script>
+        //  const d=new Date("2021-03-25");
+        //  const e=d.getUTCDay();
+        //  document.write(e);
+
+        // const d = new Date("2021-03-25");
+        // d.setDate(1); 
+        // document.write(d);
+
+        // const d = new Date("2021-03-25");
+        // d.setMonth(1); 
+        // document.write(d);
+
+        // const d = new Date("2021-03-25");
+        // d.setFullYear(1); 
+        // document.write(d);
+
+        let text="";
+        const today=new Date();
+        const someday=new Date();
+        someday.setFullYear(2100,0,14);
+        if(someday>today){
+            text="Today is before january 14,2100";
+            document.write(text)
+
+        }
+        else{
+            text="Today is after january 14,2100";
+            document.write(text);
+        }
+
+
+
+    </script>
+  
+</body>
+</html>

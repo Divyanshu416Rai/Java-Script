@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Date in ISO Format</title>
+</head>
+<body>
+    <h1>Current Date in ISO Format</h1>
+    <p id="isoDate"></p>
+
+    <script>
+        const currentDate = new Date();
+        const isoDate = currentDate.toISOString();
+        document.getElementById("isoDate").textContent = isoDate;
+    </script>
+</body> -->
+
+
+<!-- <title>Short Date Format</title>
+</head>
+<body>
+    <h1>Current Date in Short Format</h1>
+    <p id="shortDate"></p>
+
+    <script>
+        // Get the current date
+        const currentDate = new Date();
+
+        // Format the date as MM/DD/YYYY
+        const shortDate = `${currentDate.getMonth() + 1}/${currentDate.getDate()}/${currentDate.getFullYear()}`;
+
+        document.getElementById("shortDate").textContent = shortDate;
+    </script> -->
+
+    <title>Long Date Format</title>
+</head>
+<body>
+    <h1>Long Date Format</h1>
+    <p id="longDate"></p>
+    <script>
+        document.getElementById("longDate").textContent = 
+            new Date().toLocaleDateString("en-US", { 
+                weekday: "long", 
+                year: "numeric", 
+                month: "long", 
+                day: "numeric" 
+            });
+    </script>
+</body>
+</html>
