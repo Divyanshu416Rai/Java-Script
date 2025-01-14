@@ -15,10 +15,13 @@
     const stringToBoolean = (str) => str.toLowerCase() === "true";
     const numberToBoolean = (num) => Boolean(num);
     const booleanToNumber = (bool) => Number(bool);
+    const dateToNumber = (date) => date.getTime();
+    const dateToString = (date) => date.toLocaleString();
 
     const num = 42;
     const str = "123";
     const bool = true;
+    const date = new Date();
 
     const results = `
       Number to String: ${numberToString(num)}<br>
@@ -26,7 +29,9 @@
       Boolean to String: ${booleanToString(bool)}<br>
       String to Boolean: ${stringToBoolean("true")}<br>
       Number to Boolean: ${numberToBoolean(1)}<br>
-      Boolean to Number: ${booleanToNumber(false)}
+      Boolean to Number: ${booleanToNumber(false)}<br>
+      Date to Number (Timestamp): ${dateToNumber(date)}<br>
+      Date to String: ${dateToString(date)}
     `;
 
     document.getElementById("output").innerHTML = results;
